@@ -14,7 +14,7 @@
 
 AndroidStudio 进行NDK开发时会下载Cmake,下载目录是在 `{AndroidSdk目录下}\cmake` 中.请看下图:
 
-![](Android_Cmake.jpg)
+![](markdown_picture/Android_Cmake.jpg)
 
 - 还可以直接去 cmake 官网下载
 
@@ -38,15 +38,15 @@ mac的步骤如下
 
 ### 2.3 NASM 汇编工具
 
-#### 2.3.1. [NASM 下载地址](https://hanshuliang.blog.csdn.net/article/details/106996309)
+#### 2.3.1. [NASM 下载地址](https://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D)
 选择最新的发布版本 ,最好不要选 \*\*rc\* 的版本;进去后选择 ` nasm-\*\*\*.tar.gz 压缩包 ` 下载
 
-![](nasm.jpg)
+![](markdown_picture/nasm.jpg)
 
 
 ####  2.3.2. 将 NASM 源码 解压到 和 libjpeg-turbo 源码同一目录下,我的是在 `picture_compress` 目录下
 
-![](directory.jpg)
+![](markdown_picture/directory.jpg)
 
 ####  2.3.3 编译安装 nasm
 
@@ -153,7 +153,7 @@ $ ./build.sh
 
 ## 4. 拷贝需要的文件到 `AS` 中
 
-![](cpp目录.jpg)
+![](markdown_picture/cpp目录.jpg)
 
 - `include` 中的头文件在 `libjpeg-turbo` 目录下找,其中 `jconfig.h` 在编译输出的目录下,随便拷贝一个就行
 - libs 下的各版本的`.a` 文件 在各版本的输出目录下就能找到
